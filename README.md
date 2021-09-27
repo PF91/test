@@ -38,20 +38,28 @@
     |   |-- main.js                      // 程序入口文件，加载各种公共组件
     |-- .babelrc                         // ES6语法编译配置
     |-- .editorconfig                    // 代码编写规格
-    |-- .gitignore                       // 忽略的文件
     |-- index.html                       // 入口html文件
     |-- package.json                     // 项目及工具的依赖配置文件
     |-- README.md                        // 说明
 
+## 本地环境
+1.win7 64位
+2.wampserver 2.5
+3.VS Code 1.49.1
+4.vue 2.5.16
+5.vue-cli 2.9.6
+6.node.js v13.14.0
+
 ## 执行步骤
 
 1.开启本地 mysql 服务
-创建 user 表 初始化表插入一条数据 脚本如下：
+创建 user 表 初始化表插入一条数据
 2.cd service
 执行：node app 
 3.开启后端服务器 另外开一个终端：运行
 npm install // 安装项目依赖，等待安装完成之后 
-4.浏览器访问 http://localhost:8083
+npm install express --save
+4.浏览器访问 http://localhost:8086
 
 ## 服务器部署
 
